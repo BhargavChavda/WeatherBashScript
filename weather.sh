@@ -1,3 +1,6 @@
 #! /bin/bash
 
-echo 'test'
+echo 'starting'
+city=Indore
+
+curl -s wttr.in/$city?
